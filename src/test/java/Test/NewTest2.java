@@ -9,10 +9,13 @@ public class NewTest2 {
 	
   @Test
   public void sd() {
-	 
+
+	  
 	  WebDriver driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+
+
 	  
   }
 }
